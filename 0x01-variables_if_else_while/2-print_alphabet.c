@@ -1,6 +1,8 @@
+#include <unistd.h>
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <math.h>
 
 /**
  * main - Entry point
@@ -12,9 +14,17 @@
 
 int main(void)
 {
-	char ch = 'B';
+	int i, count;
 
-	putchar(tolower(ch));
+	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 
+	count = strlen(ch);
+
+	for (i = 0; i < count; i++)
+	{
+		putchar(ch[i]);
+	}
+
+	putchar('\n');
 	return (0);
 }
