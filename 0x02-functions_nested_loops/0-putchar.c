@@ -9,18 +9,14 @@
 
 int main(void)
 {
-	int n;
-
-	char str[] = "_putchar";
-	int getlength = strlen(str);
-
-	for (n = 0; n < getlength; n++)
-	{
-		_putchar(str[n]);
-
-	}
-
-	_putchar('\n');
-	return (0);
-
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
