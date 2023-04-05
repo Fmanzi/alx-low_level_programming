@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strchr - the called function to check for char match
+ *@s: the input
+ *@c: character compared against
+ * Return: NULL
  */
 char *_strchr(char *s, char c)
 {
