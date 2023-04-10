@@ -4,7 +4,7 @@
  *main - entry point
  *@argc: int variable for number of arguments
  *@argv: array of input strings
- *x: string 
+ *x: string
  *y: string
  * Return: 0
  */
