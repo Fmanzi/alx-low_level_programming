@@ -8,9 +8,10 @@
  */
 int main(int argc, char *argv[])
 {
-(void)argc;
+int x = argc;
+char **list = argv;
 
-printf("%s \n", argv[0]);
+printf("%s \n", list[0]);
 
 return (0);
 }
