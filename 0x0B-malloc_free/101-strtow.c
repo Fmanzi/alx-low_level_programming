@@ -4,28 +4,28 @@
 #include <string.h>
 
 /**
- * count_words - Count the number of words in a string.
+ * count_words - Counts the words in a string.
  * @str: The input string
  *
  * Return: The number of words.
  */
 int count_words(char *str)
 {
-    int count = 0, i = 0;
+int count = 0, i = 0;
 
-    while (str[i] != '\0')
-    {
-        while (str[i] == ' ')
-            i++;
-        if (str[i] != '\0')
-        {
-            count++;
-            while (str[i] != ' ' && str[i] != '\0')
-                i++;
-        }
-    }
+while (str[i] != '\0')
+{
+while (str[i] == ' ')
+i++;
+if (str[i] != '\0')
+{
+count++;
+while (str[i] != ' ' && str[i] != '\0')
+i++;
+}
+}
 
-    return count;
+return (count);
 }
 
 /**
